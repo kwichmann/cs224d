@@ -31,7 +31,7 @@ def softmax(x):
     x = np.exp(x) / np.sum(np.exp(x), axis = 1)
     ### END YOUR CODE
     
-    return x
+    return np.array(x)
 
 def test_softmax_basic():
     """
